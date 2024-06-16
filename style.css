@@ -1,0 +1,78 @@
+html {
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(179, 86, 154);
+
+  display: flex;
+  /* font-size: 1.3em; */
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+h1, h2, p {
+  color: white;
+}
+
+a {
+  text-decoration: none; /* Needs to be on the a tag */
+}
+
+body {
+  margin: 10px auto;
+}
+
+#logo {
+  width: 130px;
+  height: 130px;
+  display: block;
+  margin: 20px auto;
+
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+h2 { 
+  font-style: italic;
+}
+
+#container {
+  width: 100%;
+  max-width: 100%;
+  margin: 15px auto;
+}
+
+#linkbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 2px solid white;
+  border-radius: 10px;
+
+  margin: 10px;
+  padding: 10px;
+  transition: transform 0.3s ease;
+
+  height: 50px;
+}
+
+#linkbar:hover {
+  background-color: rgb(47, 126, 196);
+  transform: scale(1.05);
+}
+
+#linkbar img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+#linkbar p {
+  /* flex: 1; */
+  margin: 0;
+  text-align: center;
+  font-size: 1.5em;
+}
